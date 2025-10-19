@@ -1,0 +1,90 @@
+[
+  {
+    "id": "453",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00001672.jpg",
+    "question": "Where can I buy this from?",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question requires external knowledge or a web search to answer and cannot be answered by only analyzing the visual content of the image.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "464",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00015605.jpg",
+    "question": "Is this picture better?",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question requires context from a previous conversation or image to understand what 'better' is being compared to, making it not a standalone question.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "584",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00005981.jpg",
+    "question": "Where is it made?",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question uses the ambiguous pronoun 'it' without specifying what object it refers to, making it not a standalone question.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "548",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_val_00002839.jpg",
+    "question": "Which ocean has the most hurricanes in the world?",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "This is a general knowledge question that does not ask about the visual content of an image.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "468",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00017881.jpg",
+    "question": "where can i buy these big pens?",
+    "crowd_majority": "walmart",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "This question cannot be answered by looking at the image. It requires external knowledge of where to purchase items.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "493",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_val_00002283.jpg",
+    "question": "I need some help using this application. ",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "This is a general request for help, not a specific question about the visual content of an image.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "489",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00003053.jpg",
+    "question": "Do you think my wife's decorating is any good or should I kick her out?",
+    "crowd_majority": "yes",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question asks for a subjective opinion ('is it any good') and personal life advice ('should I kick her out'), not a factual description of the visual content in the image.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "456",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00019111.jpg",
+    "question": "The way this guy was described to me was that when you turn it to the right there's a light that goes on in settings you can go normal and heavy duty then permanent press then towels. So I think\r\n",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "This is an incomplete statement or comment, not a question. It trails off and does not ask for any specific information about the image.",
+      "method": "text_only_evaluation"
+    }
+  }
+]

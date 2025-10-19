@@ -1,0 +1,101 @@
+[
+  {
+    "id": "481",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00023765.jpg",
+    "question": "How many calories are in a slice of pepperoni and cheese pizza?",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question asks for information (calorie count) that is not visually present in an image and requires external knowledge to answer.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "563",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_val_00000055.jpg",
+    "question": "Where do you think I could get a power cord? ",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question asks for external information (where to buy an item) rather than asking about the visual content of the image itself.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "426",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00001839.jpg",
+    "question": "I know but how long do I leave it in the oven for? Now how long is the cooking time?",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question is not standalone and requires context from a previous conversation, as indicated by the phrase 'I know but...' and the ambiguous pronoun 'it'.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "479",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00011645.jpg",
+    "question": "Can you tell me what is on the other side of this box? In the photo I just sent you. Thank you.",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question asks about something that is not visible in the image (the other side of the box), and therefore cannot be answered from the visual content provided.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "289",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00015408.jpg",
+    "question": "What color is...",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question is incomplete and is a sentence fragment. It does not specify what object it is asking the color of.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "598",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00004601.jpg",
+    "question": "Where did this come from?",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question is ambiguous. 'This' is an unclear pronoun and 'come from' could have multiple interpretations (e.g., sender, manufacturer, location) that may or may not be answerable from an image.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "504",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00007944.jpg",
+    "question": "This image does not show who the mail is for. It appears to be taken too close up on one part of the envelope without text.",
+    "crowd_majority": "clockwise",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "This is a statement or comment about the image, not a question asking for visual information.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "507",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00002469.jpg",
+    "question": "Should I eat this for me tea?",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question asks for a subjective opinion or advice ('Should I...') rather than an objective description of the visual content. Answering it requires external knowledge and personal context, not just visual analysis.",
+      "method": "text_only_evaluation"
+    }
+  },
+  {
+    "id": "458",
+    "image_url": "https://vizwiz.cs.colorado.edu/VizWiz_visualization_img/VizWiz_train_00014051.jpg",
+    "question": "Oh so do I leave it in for twelve months then do I?",
+    "crowd_majority": "unanswerable",
+    "evaluation": {
+      "is_relevant": false,
+      "reason": "The question begins with 'Oh so...', which indicates it is a follow-up question that requires context from a previous conversation to be understood. It is not a standalone query.",
+      "method": "text_only_evaluation"
+    }
+  }
+]

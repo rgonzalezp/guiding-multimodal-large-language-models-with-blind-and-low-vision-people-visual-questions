@@ -1,0 +1,84 @@
+# Manual Review of Automatically Identified Irrelevant Samples
+#
+# This file contains the IDs of samples that were automatically identified as
+# irrelevant by the LLM and then manually reviewed for confirmation.
+#
+# Date of manual review: 2025-07-28
+# Reviewer: Felipe Russi
+#
+# All IDs listed below were confirmed to be irrelevant and should be discarded
+# from the dataset.
+#
+# Format: One ID per line
+# Lines starting with # are comments and will be ignored
+#
+
+373
+356
+301
+585
+54
+531
+138
+104
+352
+515
+134
+492
+79
+36
+534
+227
+209
+597
+219
+348
+520
+23
+376
+436
+267
+495
+572
+367
+9
+499
+320
+120
+424
+461
+89
+50
+159
+162
+474
+419
+577
+408
+181
+525
+477
+528
+494
+15
+117
+127
+222
+498
+114
+67
+529
+136
+174
+579
+549
+73
+487
+231
+235
+204
+580
+52
+556
+317
+578

@@ -1,0 +1,8 @@
+gemini:
+  api_key: EXAMPLE
+
+cohere:
+  api_key: EXAMPLE
+
+anthropic:
+  api_key: EXAMPLE
